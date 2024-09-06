@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { FaUniversity } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import corpcommentImg from "@/public/Screenshot 2024-09-06 203740.png";
+import rmtdevImg from "@/public/Screenshot 2024-09-06 180533.png";
+import wordanalyticsImg from "@/public/image.png";
 
 export const links = [
   {
@@ -24,7 +24,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Journey",
     hash: "#experience",
   },
   {
@@ -35,51 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Salwan Public School",
+    location: "Gurugram, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After passing my school exams, I scored 95.6 percentile in the JEE exam, which led to my admission into college to pursue engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Development",
+    location: "",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Programming started as an interesting challenge that intrigued me with its complexity. As I navigated these challenges and fell in love with coding, I decided to pursue a career in software development.",
+    icon: React.createElement(FaLaptopCode),
+    date: "2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Maharaja Agrasen Institue of Technology",
+    location: "Delhi, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I’m currently studying BTech in Computer Science and Engineering. My coursework and projects are developing my skills in software development and preparing me for a career as an SDE.",
+    icon: React.createElement(FaUniversity),
     date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Plinko Rush",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "A game where players drop a disc down a peg-filled board, and the disc bounces randomly before landing in a slot with varying prizes or points.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: rmtdevImg,
+  },
+  {
+    title: "Genesis",
+    description:
+      "The web application provides various AI tools on a single platform, including image and video generation, code generation, and AI conversations.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Tesla Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Tesla Clone is a web page designed to mirror the official Tesla site, showcasing my proficiency in frontend development",
+    tags: ["React", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -92,16 +92,14 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Microservices",
+  "Docker",
+  "Java",
 ] as const;
