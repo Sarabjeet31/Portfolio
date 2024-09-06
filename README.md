@@ -29,7 +29,3 @@ This portfolio website highlights my professional journey, technical expertise, 
 - **Other Tools**:
   - Vercel (for deployment)
   - Git/GitHub (for version control)
-
-## 📂 Project Structure
-
-|-- public/ |-- src/ |-- components/ # Reusable components (header, footer, etc.) |-- pages/ # Pages like home, projects, contact |-- README.md |-- package.json |-- vercel.json # Vercel deployment configuration
