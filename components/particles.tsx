@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 import { useTheme } from "@/context/theme-context";
+import { type Container, type ISourceOptions, MoveDirection, OutMode } from "@tsparticles/engine";
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
 
@@ -30,12 +31,12 @@ const ParticlesComponent = (props: any) => {
     });
   }, []);
 
-  const particlesLoaded = (container: any) => {
-    console.log(container);
-  };
+  // const particlesLoaded = (container: any) => {
+  //   console.log(container);
+  // };
 
 
-  const options = useMemo(
+  const options: ISourceOptions = useMemo(
     () => ({
       background: {
         color: {
@@ -76,10 +77,10 @@ const ParticlesComponent = (props: any) => {
           width: 1,
         },
         move: {
-          direction: "none",
+          direction: MoveDirection.none,
           enable: true,
           outModes: {
-            default: "bounce",
+            default: OutMode.bounce,
           },
           random: true,
           speed: 1,
@@ -107,7 +108,7 @@ const ParticlesComponent = (props: any) => {
   );
 
 
-  return <Particles id={props.id} init={particlesLoaded} options={options} />; 
+  return <Particles id={props.id} options={options} />; 
 };
 
 export default ParticlesComponent;
