@@ -1,30 +1,35 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# 💼 Portfolio Website
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+Welcome to my personal portfolio website! This project showcases my skills, experience, and projects as a software developer. It is built using modern web technologies and aims to provide a smooth and intuitive user experience for visitors.
 
-## What you will learn
+## 🚀 Project Overview
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+This portfolio website highlights my professional journey, technical expertise, and personal projects. It serves as a central hub for potential employers and collaborators to learn more about my work and get in touch.
 
-## Important
+### 🖥️ Features
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile views.
+- **Project Showcases**: Detailed descriptions and live demos of my projects.
+- **Smooth Animations**: Subtle animations to enhance the user experience.
+- **Contact Form**: A simple contact form for easy communication.
+- **Downloadable Resume**: An option to download my resume.
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+## 🛠️ Technologies Used
 
-## Setup
+- **Frontend**:
+  - HTML5
+  - CSS3 (TailwindCSS/Bootstrap)
+  - JavaScript (React.js/Next.js)
+  - [Your chosen framework/library, if applicable]
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+- **Backend**:
+  - Node.js/Express (for handling form submissions or API calls, if any)
+  - [Any other backend tools, if applicable]
+
+- **Other Tools**:
+  - Vercel (for deployment)
+  - Git/GitHub (for version control)
+
+## 📂 Project Structure
+
+|-- public/ |-- src/ |-- components/ # Reusable components (header, footer, etc.) |-- pages/ # Pages like home, projects, contact |-- README.md |-- package.json |-- vercel.json # Vercel deployment configuration
