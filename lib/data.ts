@@ -40,23 +40,23 @@ export const experiencesData = [
     description:
       "After passing my school exams, I scored 95.6 percentile in the JEE exam, which led to my admission into college to pursue engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021",
-  },
-  {
-    title: "Software Development",
-    location: "",
-    description:
-      "Programming started as an interesting challenge that intrigued me with its complexity. As I navigated these challenges and fell in love with coding, I decided to pursue a career in software development.",
-    icon: React.createElement(FaLaptopCode),
-    date: "2021",
+    date: "2019 - 2021",
   },
   {
     title: "Maharaja Agrasen Institue of Technology",
     location: "Delhi, India",
     description:
-      "I’m currently studying BTech in Computer Science and Engineering. My coursework and projects are developing my skills in software development and preparing me for a career as an SDE.",
+    "I started my journey doing BTech in Computer Science and Engineering. My coursework and projects are developing my skills in software development and preparing me for a career as an SDE.",
     icon: React.createElement(FaUniversity),
-    date: "2021 - present",
+    date: "2021",
+  },
+  {
+    title: "Full Stack Intern",
+    location: "",
+    description:
+      "Programming started as an interesting challenge that intrigued me with its complexity. As I navigated these challenges and fell in love with coding, I decided to pursue a career in software development.",
+    icon: React.createElement(FaLaptopCode),
+    date: "Septempber 2023 - December 2023",
   },
 ] as const;
 
