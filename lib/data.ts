@@ -43,20 +43,20 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Software Development",
-    location: "",
-    description:
-      "Programming started as an interesting challenge that intrigued me with its complexity. As I navigated these challenges and fell in love with coding, I decided to pursue a career in software development.",
-    icon: React.createElement(FaLaptopCode),
-    date: "2021",
-  },
-  {
     title: "Maharaja Agrasen Institue of Technology",
     location: "Delhi, India",
     description:
-      "I’m currently studying BTech in Computer Science and Engineering. My coursework and projects are developing my skills in software development and preparing me for a career as an SDE.",
+    "I’m currently studying BTech in Computer Science and Engineering. My coursework and projects are developing my skills in software development and preparing me for a career as an SDE.",
     icon: React.createElement(FaUniversity),
-    date: "2021 - present",
+    date: "2021",
+  },
+  {
+    title: "SDE Intern",
+    location: "",
+    description:
+      "Developed a 6-service microservice app handling 500 API requests/sec. Implemented Redis caching to cut data load time by 90% and API gateways to reduce hits by 50%. Managed 8 databases and improved team workflows. Built a secure login service, reducing unauthorized access by 90%.",
+    icon: React.createElement(FaLaptopCode),
+    date: "Septempber 2023 - December 2023",
   },
 ] as const;
 
