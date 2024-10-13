@@ -11,8 +11,8 @@ import ParticlesComponent from "@/components/particles";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Sarabjeet Singh Lamba | Personal Portfolio",
-  description: "Sarabjeet Singh Lamba is a College student with an Internship, lokking for a job.",
+  title: "Sarabjeet | Personal Portfolio",
+  description: "Sarabjeet Singh is a aspiring Software Developer.",
 };
 
 export default function RootLayout({
