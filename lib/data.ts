@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/Screenshot 2024-09-06 203740.png";
 import rmtdevImg from "@/public/Screenshot 2024-09-06 180533.png";
 import wordanalyticsImg from "@/public/image.png";
+import SgitImg from "@/public/Screenshot 2024-10-14 215750.png";
 
 export const links = [
   {
@@ -67,6 +68,13 @@ export const projectsData = [
       "A game where players drop a disc down a peg-filled board, and the disc bounces randomly before landing in a slot with varying prizes or points.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: rmtdevImg,
+  },
+  {
+    title: "Sgit",
+    description:
+      "Developed Sgit, a lightweight version control system that handles 100+ file changes and commits, offering 3x faster performance than Git for small projects with fewer than 100 files and minimal branching.",
+    tags: ["Node.Js", "Javascript"],
+    imageUrl: SgitImg,
   },
   {
     title: "Genesis",
